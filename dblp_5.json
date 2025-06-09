@@ -1,0 +1,447 @@
+{
+    "result": {
+        "query": "Computer* Science*",
+        "status": {
+            "@code": "200",
+            "text": "OK"
+        },
+        "time": {
+            "@unit": "msecs",
+            "text": "33.12"
+        },
+        "completions": {
+            "@total": "4",
+            "@computed": "4",
+            "@sent": "4",
+            "c": [
+                {
+                    "@sc": "33216",
+                    "@dc": "31615",
+                    "@oc": "33216",
+                    "@id": "60630640",
+                    "text": "science"
+                },
+                {
+                    "@sc": "894",
+                    "@dc": "871",
+                    "@oc": "894",
+                    "@id": "60630666",
+                    "text": "sciences"
+                },
+                {
+                    "@sc": "1",
+                    "@dc": "1",
+                    "@oc": "1",
+                    "@id": "60630665",
+                    "text": "sciencers"
+                },
+                {
+                    "@sc": "1",
+                    "@dc": "1",
+                    "@oc": "1",
+                    "@id": "60630676",
+                    "text": "sciences\u07de1960"
+                }
+            ]
+        },
+        "hits": {
+            "@total": "32367",
+            "@computed": "100",
+            "@sent": "5",
+            "@first": "0",
+            "hit": [
+                {
+                    "@score": "8",
+                    "@id": "7011710",
+                    "info": {
+                        "authors": {
+                            "author": [
+                                {
+                                    "@pid": "17/6640",
+                                    "text": "Gholamreza B. Khosrovshahi"
+                                },
+                                {
+                                    "@pid": "82/5760",
+                                    "text": "Ali Shokoufandeh"
+                                },
+                                {
+                                    "@pid": "05/2386",
+                                    "text": "Mohammad Amin Shokrollahi"
+                                }
+                            ]
+                        },
+                        "paperid": "6af818b4-ca39-4c22-9d41-f6f18ee55aa1",
+                        "title": "Theoretical Aspects of Computer Science, Advanced Lectures (First Summer School on Theoretical Aspects of Computer Science, Tehran, Iran, July 2000)",
+                        "venue": [
+                            "Theoretical Aspects of Computer Science",
+                            "Lecture Notes in Computer Science"
+                        ],
+                        "volume": "2292",
+                        "publisher": "Springer",
+                        "year": "2002",
+                        "type": "Workshop",
+                        "key": "conf/ac/2000tacs",
+                        "doi": "10.1007/3-540-45878-6",
+                        "ee": "https://doi.org/10.1007/3-540-45878-6",
+                        "url": "https://dblp.org/rec/conf/ac/2000tacs",
+                        "keywords": [
+                            "Data Storage",
+                            "Data Management",
+                            "Data Querying"
+                        ],
+                        "reviewers": {
+                            "author": [
+                                {
+                                    "@pid": "126/9849",
+                                    "text": "David Weintrop"
+                                },
+                                {
+                                    "@pid": "74/1515",
+                                    "text": "Kamel Barkaoui"
+                                },
+                                {
+                                    "@pid": "79/2621",
+                                    "text": "Vera Kurkov"
+                                }
+                            ]
+                        },
+                        "review": [
+                            {
+                                "score": 7,
+                                "main_feedback": "Technically sound but conclusions need slight moderation",
+                                "decision": "accepted"
+                            }
+                        ],
+                        "affiliation": [
+                            {
+                                "type": "Company",
+                                "name": "Ericsson"
+                            }
+                        ],
+                        "cited": [
+                            "eab60903-ede9-40e1-9179-49c04b5bd7dc",
+                            "4d7eaa28-cb3b-439d-b3df-6ce736be77d3",
+                            "bb298b5b-86d4-4b72-8af0-75b4ff69cf9d"
+                        ],
+                        "eventid": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s1",
+                        "event_name": "Workshop on Artificial Intelligence",
+                        "edition": 14,
+                        "city": "Vienna"
+                    },
+                    "url": "URL#7011710"
+                },
+                {
+                    "@score": "6",
+                    "@id": "106125",
+                    "info": {
+                        "authors": {
+                            "author": [
+                                {
+                                    "@pid": "31/4900",
+                                    "text": "Djamil Assani"
+                                },
+                                {
+                                    "@pid": "74/1515",
+                                    "text": "Kamel Barkaoui"
+                                },
+                                {
+                                    "@pid": "r/MathieuRoche",
+                                    "text": "Mathieu Roche"
+                                }
+                            ]
+                        },
+                        "paperid": "4d7eaa28-cb3b-439d-b3df-6ce736be77d3",
+                        "title": "Research in Computer Science - 17th African Conference on Research in Computer Science and Applied Mathematics, CARI 2024, Beja\u00efa, Algeria, November 24-26, 2024, Proceedings",
+                        "venue": [
+                            "CARI",
+                            "Communications in Computer and Information Science"
+                        ],
+                        "volume": "2462",
+                        "publisher": "Springer",
+                        "year": "2025",
+                        "type": "Workshop",
+                        "key": "conf/cari/2024",
+                        "doi": "10.1007/978-3-031-88226-5",
+                        "ee": "https://doi.org/10.1007/978-3-031-88226-5",
+                        "url": "https://dblp.org/rec/conf/cari/2024",
+                        "keywords": [
+                            "Compiler",
+                            "Data Management",
+                            "Cloud Storage"
+                        ],
+                        "reviewers": {
+                            "author": [
+                                {
+                                    "@pid": "k/RastislavKralovic",
+                                    "text": "Rastislav Krlovic"
+                                },
+                                {
+                                    "@pid": "194/2048",
+                                    "text": "Justice Toshiba Walker"
+                                },
+                                {
+                                    "@pid": "17/6640",
+                                    "text": "Gholamreza B. Khosrovshahi"
+                                }
+                            ]
+                        },
+                        "review": [
+                            {
+                                "score": 8,
+                                "main_feedback": "Innovative approach with thorough validation",
+                                "decision": "accepted"
+                            }
+                        ],
+                        "affiliation": [
+                            {
+                                "type": "University",
+                                "name": "University of Helsinki"
+                            }
+                        ],
+                        "cited": [
+                            "5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0",
+                            "bb298b5b-86d4-4b72-8af0-75b4ff69cf9d",
+                            "6af818b4-ca39-4c22-9d41-f6f18ee55aa1",
+                            "eab60903-ede9-40e1-9179-49c04b5bd7dc"
+                        ],
+                        "eventid": "d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5t6u7w8x4",
+                        "event_name": "Workshop on Computational Biology",
+                        "edition": 5,
+                        "city": "Rome"
+                    },
+                    "url": "URL#106125"
+                },
+                {
+                    "@score": "6",
+                    "@id": "106794",
+                    "info": {
+                        "authors": {
+                            "author": [
+                                {
+                                    "@pid": "k/RastislavKralovic",
+                                    "text": "Rastislav Krlovic"
+                                },
+                                {
+                                    "@pid": "79/2621",
+                                    "text": "Vera Kurkov"
+                                }
+                            ]
+                        },
+                        "paperid": "eab60903-ede9-40e1-9179-49c04b5bd7dc",
+                        "title": "SOFSEM 2025: Theory and Practice of Computer Science - 50th International Conference on Current Trends in Theory and Practice of Computer Science, SOFSEM 2025, Bratislava, Slovak Republic, January 20-23, 2025, Proceedings, Part I",
+                        "venue": [
+                            "SOFSEM",
+                            "Lecture Notes in Computer Science"
+                        ],
+                        "volume": "15538",
+                        "publisher": "Springer",
+                        "year": "2025",
+                        "type": "Workshop",
+                        "key": "conf/sofsem/2025-1",
+                        "doi": "10.1007/978-3-031-82670-2",
+                        "ee": "https://doi.org/10.1007/978-3-031-82670-2",
+                        "url": "https://dblp.org/rec/conf/sofsem/2025-1",
+                        "keywords": [
+                            "Data Storage",
+                            "Data Management",
+                            "Data Querying"
+                        ],
+                        "reviewers": {
+                            "author": [
+                                {
+                                    "@pid": "82/5760",
+                                    "text": "Ali Shokoufandeh"
+                                },
+                                {
+                                    "@pid": "74/1515",
+                                    "text": "Kamel Barkaoui"
+                                },
+                                {
+                                    "@pid": "r/MathieuRoche",
+                                    "text": "Mathieu Roche"
+                                }
+                            ]
+                        },
+                        "review": [
+                            {
+                                "score": 8,
+                                "main_feedback": "Innovative approach with thorough validation",
+                                "decision": "accepted"
+                            }
+                        ],
+                        "affiliation": [
+                            {
+                                "type": "Company",
+                                "name": "Zalando"
+                            }
+                        ],
+                        "cited": [
+                            "bb298b5b-86d4-4b72-8af0-75b4ff69cf9d",
+                            "6af818b4-ca39-4c22-9d41-f6f18ee55aa1"
+                        ],
+                        "eventid": "e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6v7w8y5",
+                        "event_name": "Workshop on Quantum Computing",
+                        "edition": 3,
+                        "city": "Zurich"
+                    },
+                    "url": "URL#106794"
+                },
+                {
+                    "@score": "6",
+                    "@id": "106795",
+                    "info": {
+                        "authors": {
+                            "author": [
+                                {
+                                    "@pid": "k/RastislavKralovic",
+                                    "text": "Rastislav Krlovic"
+                                },
+                                {
+                                    "@pid": "79/2621",
+                                    "text": "Vera Kurkov"
+                                }
+                            ]
+                        },
+                        "paperid": "5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0",
+                        "title": "SOFSEM 2025: Theory and Practice of Computer Science - 50th International Conference on Current Trends in Theory and Practice of Computer Science, SOFSEM 2025, Bratislava, Slovak Republic, January 20-23, 2025, Proceedings, Part II",
+                        "venue": [
+                            "SOFSEM",
+                            "Lecture Notes in Computer Science"
+                        ],
+                        "volume": "15539",
+                        "publisher": "Springer",
+                        "year": "2025",
+                        "type": "Workshop",
+                        "key": "conf/sofsem/2025-2",
+                        "doi": "10.1007/978-3-031-82697-9",
+                        "ee": "https://doi.org/10.1007/978-3-031-82697-9",
+                        "url": "https://dblp.org/rec/conf/sofsem/2025-2",
+                        "keywords": [
+                            "Database",
+                            "Algorithm",
+                            "Data Management"
+                        ],
+                        "reviewers": {
+                            "author": [
+                                {
+                                    "@pid": "194/2048",
+                                    "text": "Justice Toshiba Walker"
+                                },
+                                {
+                                    "@pid": "31/4900",
+                                    "text": "Djamil Assani"
+                                },
+                                {
+                                    "@pid": "k/RastislavKralovic",
+                                    "text": "Rastislav Krlovic"
+                                }
+                            ]
+                        },
+                        "review": [
+                            {
+                                "score": 8,
+                                "main_feedback": "Innovative approach with thorough validation",
+                                "decision": "accepted"
+                            }
+                        ],
+                        "affiliation": [
+                            {
+                                "type": "Company",
+                                "name": "Nokia"
+                            }
+                        ],
+                        "cited": [
+                            "bb298b5b-86d4-4b72-8af0-75b4ff69cf9d",
+                            "4d7eaa28-cb3b-439d-b3df-6ce736be77d3",
+                            "6af818b4-ca39-4c22-9d41-f6f18ee55aa1"
+                        ],
+                        "eventid": "l1m2n3o4p5q6r7s8t9u0v1w2x3y4z5a6b7c2f3",
+                        "event_name": "Workshop on Cybersecurity",
+                        "edition": 15,
+                        "city": "Berlin"
+                    },
+                    "url": "URL#106795"
+                },
+                {
+                    "@score": "6",
+                    "@id": "542235",
+                    "info": {
+                        "authors": {
+                            "author": [
+                                {
+                                    "@pid": "371/6805",
+                                    "text": "Zarek Drozda"
+                                },
+                                {
+                                    "@pid": "194/2048",
+                                    "text": "Justice Toshiba Walker"
+                                },
+                                {
+                                    "@pid": "04/4803",
+                                    "text": "Kathi Fisler"
+                                },
+                                {
+                                    "@pid": "126/9849",
+                                    "text": "David Weintrop"
+                                }
+                            ]
+                        },
+                        "paperid": "bb298b5b-86d4-4b72-8af0-75b4ff69cf9d",
+                        "title": "Computing in Data Science or Data in Computer Science? Exploring the Relationship between Data Science and Computer Science in K-12 Education.",
+                        "venue": "SIGCSE",
+                        "pages": "1527-1528",
+                        "year": "2024",
+                        "type": "Conference",
+                        "access": "closed",
+                        "key": "conf/sigcse/DrozdaWFW24",
+                        "doi": "10.1145/3626253.3631654",
+                        "ee": "https://doi.org/10.1145/3626253.3631654",
+                        "url": "https://dblp.org/rec/conf/sigcse/DrozdaWFW24",
+                        "keywords": [
+                            "Indexing",
+                            "Cloud Storage",
+                            "Compiler"
+                        ],
+                        "reviewers": {
+                            "author": [
+                                {
+                                    "@pid": "r/MathieuRoche",
+                                    "text": "Mathieu Roche"
+                                },
+                                {
+                                    "@pid": "17/6640",
+                                    "text": "Gholamreza B. Khosrovshahi"
+                                },
+                                {
+                                    "@pid": "05/2386",
+                                    "text": "Mohammad Amin Shokrollahi"
+                                }
+                            ]
+                        },
+                        "review": [
+                            {
+                                "score": 8,
+                                "main_feedback": "Excellent practical applications",
+                                "decision": "accepted"
+                            }
+                        ],
+                        "affiliation": [
+                            {
+                                "type": "Company",
+                                "name": "DeepMind"
+                            }
+                        ],
+                        "cited": [
+                            "6af818b4-ca39-4c22-9d41-f6f18ee55aa1"
+                        ],
+                        "eventid": "s1t2u3v4w5x6y7z8a9b0c1d2e3f4g8h9i1j1m7",
+                        "event_name": "European Conference on Human-Computer Interaction",
+                        "edition": 41,
+                        "city": "Stockholm"
+                    },
+                    "url": "URL#542235"
+                }
+            ]
+        }
+    }
+}

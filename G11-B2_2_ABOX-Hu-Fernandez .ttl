@@ -1,0 +1,385 @@
+@prefix pap: <http://www.example.edu/papers/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pap:review_4d7eaa28-cb3b-439d-b3df-6ce736be77d3_review_1 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "1"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3 ;
+    pap:reviewed_by_person pap:person_k_RastislavKralovic .
+
+pap:review_4d7eaa28-cb3b-439d-b3df-6ce736be77d3_review_2 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "2"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3 ;
+    pap:reviewed_by_person pap:person_194_2048 .
+
+pap:review_4d7eaa28-cb3b-439d-b3df-6ce736be77d3_review_3 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "3"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3 ;
+    pap:reviewed_by_person pap:person_17_6640 .
+
+pap:review_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0_review_1 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "1"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0 ;
+    pap:reviewed_by_person pap:person_194_2048 .
+
+pap:review_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0_review_2 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "2"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0 ;
+    pap:reviewed_by_person pap:person_31_4900 .
+
+pap:review_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0_review_3 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "3"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0 ;
+    pap:reviewed_by_person pap:person_k_RastislavKralovic .
+
+pap:review_6af818b4-ca39-4c22-9d41-f6f18ee55aa1_review_1 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Technically sound but conclusions need slight moderation"^^xsd:string ;
+    pap:r_position "1"^^xsd:int ;
+    pap:r_score "7"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1 ;
+    pap:reviewed_by_person pap:person_126_9849 .
+
+pap:review_6af818b4-ca39-4c22-9d41-f6f18ee55aa1_review_2 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Technically sound but conclusions need slight moderation"^^xsd:string ;
+    pap:r_position "2"^^xsd:int ;
+    pap:r_score "7"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1 ;
+    pap:reviewed_by_person pap:person_74_1515 .
+
+pap:review_6af818b4-ca39-4c22-9d41-f6f18ee55aa1_review_3 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Technically sound but conclusions need slight moderation"^^xsd:string ;
+    pap:r_position "3"^^xsd:int ;
+    pap:r_score "7"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1 ;
+    pap:reviewed_by_person pap:person_79_2621 .
+
+pap:review_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d_review_1 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Excellent practical applications"^^xsd:string ;
+    pap:r_position "1"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:reviewed_by_person pap:person_r_MathieuRoche .
+
+pap:review_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d_review_2 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Excellent practical applications"^^xsd:string ;
+    pap:r_position "2"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:reviewed_by_person pap:person_17_6640 .
+
+pap:review_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d_review_3 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Excellent practical applications"^^xsd:string ;
+    pap:r_position "3"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:reviewed_by_person pap:person_05_2386 .
+
+pap:review_eab60903-ede9-40e1-9179-49c04b5bd7dc_review_1 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "1"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_eab60903-ede9-40e1-9179-49c04b5bd7dc ;
+    pap:reviewed_by_person pap:person_82_5760 .
+
+pap:review_eab60903-ede9-40e1-9179-49c04b5bd7dc_review_2 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "2"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_eab60903-ede9-40e1-9179-49c04b5bd7dc ;
+    pap:reviewed_by_person pap:person_74_1515 .
+
+pap:review_eab60903-ede9-40e1-9179-49c04b5bd7dc_review_3 a pap:reviewed_by ;
+    pap:r_decision "accepted"^^xsd:string ;
+    pap:r_main_feedback "Innovative approach with thorough validation"^^xsd:string ;
+    pap:r_position "3"^^xsd:int ;
+    pap:r_score "8"^^xsd:int ;
+    pap:reviewed_by_paper pap:paper_eab60903-ede9-40e1-9179-49c04b5bd7dc ;
+    pap:reviewed_by_person pap:person_r_MathieuRoche .
+
+pap:written_by_4d7eaa28-cb3b-439d-b3df-6ce736be77d3_0 a pap:written_by ;
+    pap:w_position "1"^^xsd:int ;
+    pap:written_by_paper pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3 ;
+    pap:written_by_person pap:person_31_4900 .
+
+pap:written_by_4d7eaa28-cb3b-439d-b3df-6ce736be77d3_1 a pap:written_by ;
+    pap:w_position "2"^^xsd:int ;
+    pap:written_by_paper pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3 ;
+    pap:written_by_person pap:person_74_1515 .
+
+pap:written_by_4d7eaa28-cb3b-439d-b3df-6ce736be77d3_2 a pap:written_by ;
+    pap:w_position "3"^^xsd:int ;
+    pap:written_by_paper pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3 ;
+    pap:written_by_person pap:person_r_MathieuRoche .
+
+pap:written_by_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0_0 a pap:written_by ;
+    pap:w_position "1"^^xsd:int ;
+    pap:written_by_paper pap:paper_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0 ;
+    pap:written_by_person pap:person_k_RastislavKralovic .
+
+pap:written_by_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0_1 a pap:written_by ;
+    pap:w_position "2"^^xsd:int ;
+    pap:written_by_paper pap:paper_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0 ;
+    pap:written_by_person pap:person_79_2621 .
+
+pap:written_by_6af818b4-ca39-4c22-9d41-f6f18ee55aa1_0 a pap:written_by ;
+    pap:w_position "1"^^xsd:int ;
+    pap:written_by_paper pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1 ;
+    pap:written_by_person pap:person_17_6640 .
+
+pap:written_by_6af818b4-ca39-4c22-9d41-f6f18ee55aa1_1 a pap:written_by ;
+    pap:w_position "2"^^xsd:int ;
+    pap:written_by_paper pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1 ;
+    pap:written_by_person pap:person_82_5760 .
+
+pap:written_by_6af818b4-ca39-4c22-9d41-f6f18ee55aa1_2 a pap:written_by ;
+    pap:w_position "3"^^xsd:int ;
+    pap:written_by_paper pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1 ;
+    pap:written_by_person pap:person_05_2386 .
+
+pap:written_by_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d_0 a pap:written_by ;
+    pap:w_position "1"^^xsd:int ;
+    pap:written_by_paper pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:written_by_person pap:person_371_6805 .
+
+pap:written_by_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d_1 a pap:written_by ;
+    pap:w_position "2"^^xsd:int ;
+    pap:written_by_paper pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:written_by_person pap:person_194_2048 .
+
+pap:written_by_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d_2 a pap:written_by ;
+    pap:w_position "3"^^xsd:int ;
+    pap:written_by_paper pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:written_by_person pap:person_04_4803 .
+
+pap:written_by_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d_3 a pap:written_by ;
+    pap:w_position "4"^^xsd:int ;
+    pap:written_by_paper pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:written_by_person pap:person_126_9849 .
+
+pap:written_by_eab60903-ede9-40e1-9179-49c04b5bd7dc_0 a pap:written_by ;
+    pap:w_position "1"^^xsd:int ;
+    pap:written_by_paper pap:paper_eab60903-ede9-40e1-9179-49c04b5bd7dc ;
+    pap:written_by_person pap:person_k_RastislavKralovic .
+
+pap:written_by_eab60903-ede9-40e1-9179-49c04b5bd7dc_1 a pap:written_by ;
+    pap:w_position "2"^^xsd:int ;
+    pap:written_by_paper pap:paper_eab60903-ede9-40e1-9179-49c04b5bd7dc ;
+    pap:written_by_person pap:person_79_2621 .
+
+pap:conference_European_Conference_on_Human-Computer_Interaction a pap:conference ;
+    pap:e_name "European Conference on Human-Computer Interaction"^^xsd:string ;
+    pap:e_type "conference"^^xsd:string .
+
+pap:edition_European_Conference_on_Human-Computer_Interaction_Stockholm a pap:edition ;
+    pap:belongs_to_conference pap:conference_European_Conference_on_Human-Computer_Interaction ;
+    pap:ed_name "European Conference on Human-Computer Interaction"^^xsd:string ;
+    pap:ed_venue "Stockholm"^^xsd:string ;
+    pap:ed_year "2024"^^xsd:int .
+
+pap:edition_Workshop_on_Artificial_Intelligence_Vienna a pap:edition ;
+    pap:belongs_to_workshop pap:workshop_Workshop_on_Artificial_Intelligence ;
+    pap:ed_name "Workshop on Artificial Intelligence"^^xsd:string ;
+    pap:ed_number "14"^^xsd:int ;
+    pap:ed_venue "Vienna"^^xsd:string ;
+    pap:ed_year "2002"^^xsd:int .
+
+pap:edition_Workshop_on_Computational_Biology_Rome a pap:edition ;
+    pap:belongs_to_workshop pap:workshop_Workshop_on_Computational_Biology ;
+    pap:ed_name "Workshop on Computational Biology"^^xsd:string ;
+    pap:ed_number "5"^^xsd:int ;
+    pap:ed_venue "Rome"^^xsd:string ;
+    pap:ed_year "2025"^^xsd:int .
+
+pap:edition_Workshop_on_Cybersecurity_Berlin a pap:edition ;
+    pap:belongs_to_workshop pap:workshop_Workshop_on_Cybersecurity ;
+    pap:ed_name "Workshop on Cybersecurity"^^xsd:string ;
+    pap:ed_number "15"^^xsd:int ;
+    pap:ed_venue "Berlin"^^xsd:string ;
+    pap:ed_year "2025"^^xsd:int .
+
+pap:edition_Workshop_on_Quantum_Computing_Zurich a pap:edition ;
+    pap:belongs_to_workshop pap:workshop_Workshop_on_Quantum_Computing ;
+    pap:ed_name "Workshop on Quantum Computing"^^xsd:string ;
+    pap:ed_number "3"^^xsd:int ;
+    pap:ed_venue "Zurich"^^xsd:string ;
+    pap:ed_year "2025"^^xsd:int .
+
+pap:keyword_Algorithm a pap:keyword ;
+    pap:k_name "Algorithm"^^xsd:string .
+
+pap:keyword_Database a pap:keyword ;
+    pap:k_name "Database"^^xsd:string .
+
+pap:keyword_Indexing a pap:keyword ;
+    pap:k_name "Indexing"^^xsd:string .
+
+pap:person_04_4803 a pap:author ;
+    pap:per_name "Kathi Fisler"^^xsd:string .
+
+pap:person_371_6805 a pap:author ;
+    pap:per_name "Zarek Drozda"^^xsd:string .
+
+pap:workshop_Workshop_on_Artificial_Intelligence a pap:workshop ;
+    pap:e_name "Workshop on Artificial Intelligence"^^xsd:string ;
+    pap:e_type "workshop"^^xsd:string .
+
+pap:workshop_Workshop_on_Computational_Biology a pap:workshop ;
+    pap:e_name "Workshop on Computational Biology"^^xsd:string ;
+    pap:e_type "workshop"^^xsd:string .
+
+pap:workshop_Workshop_on_Cybersecurity a pap:workshop ;
+    pap:e_name "Workshop on Cybersecurity"^^xsd:string ;
+    pap:e_type "workshop"^^xsd:string .
+
+pap:workshop_Workshop_on_Quantum_Computing a pap:workshop ;
+    pap:e_name "Workshop on Quantum Computing"^^xsd:string ;
+    pap:e_type "workshop"^^xsd:string .
+
+pap:keyword_Cloud_Storage a pap:keyword ;
+    pap:k_name "Cloud Storage"^^xsd:string .
+
+pap:keyword_Compiler a pap:keyword ;
+    pap:k_name "Compiler"^^xsd:string .
+
+pap:keyword_Data_Querying a pap:keyword ;
+    pap:k_name "Data Querying"^^xsd:string .
+
+pap:keyword_Data_Storage a pap:keyword ;
+    pap:k_name "Data Storage"^^xsd:string .
+
+pap:person_05_2386 a pap:author,
+        pap:reviewer ;
+    pap:per_name "Mohammad Amin Shokrollahi"^^xsd:string .
+
+pap:person_126_9849 a pap:author,
+        pap:reviewer ;
+    pap:per_name "David Weintrop"^^xsd:string .
+
+pap:person_31_4900 a pap:author,
+        pap:reviewer ;
+    pap:per_name "Djamil Assani"^^xsd:string .
+
+pap:person_82_5760 a pap:author,
+        pap:reviewer ;
+    pap:per_name "Ali Shokoufandeh"^^xsd:string .
+
+pap:person_17_6640 a pap:author,
+        pap:reviewer ;
+    pap:per_name "Gholamreza B. Khosrovshahi"^^xsd:string .
+
+pap:person_194_2048 a pap:author,
+        pap:reviewer ;
+    pap:per_name "Justice Toshiba Walker"^^xsd:string .
+
+pap:person_74_1515 a pap:author,
+        pap:reviewer ;
+    pap:per_name "Kamel Barkaoui"^^xsd:string .
+
+pap:person_79_2621 a pap:author,
+        pap:reviewer ;
+    pap:per_name "Vera Kurkov"^^xsd:string .
+
+pap:person_r_MathieuRoche a pap:author,
+        pap:reviewer ;
+    pap:per_name "Mathieu Roche"^^xsd:string .
+
+pap:keyword_Data_Management a pap:keyword ;
+    pap:k_name "Data Management"^^xsd:string .
+
+pap:person_k_RastislavKralovic a pap:author,
+        pap:reviewer ;
+    pap:per_name "Rastislav Krlovic"^^xsd:string .
+
+pap:paper_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0 a pap:paper ;
+    pap:cites pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3,
+        pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1,
+        pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:has_keyword pap:keyword_Algorithm,
+        pap:keyword_Data_Management,
+        pap:keyword_Database ;
+    pap:p_doi "10.1007/978-3-031-82697-9"^^xsd:string ;
+    pap:p_paperid "5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0"^^xsd:string ;
+    pap:p_title "SOFSEM 2025: Theory and Practice of Computer Science - 50th International Conference on Current Trends in Theory and Practice of Computer Science, SOFSEM 2025, Bratislava, Slovak Republic, January 20-23, 2025, Proceedings, Part II"^^xsd:string ;
+    pap:p_url "https://dblp.org/rec/conf/sofsem/2025-2"^^xsd:string ;
+    pap:p_year "2025"^^xsd:int ;
+    pap:published_in_edition pap:edition_Workshop_on_Cybersecurity_Berlin .
+
+pap:paper_eab60903-ede9-40e1-9179-49c04b5bd7dc a pap:paper ;
+    pap:cites pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1,
+        pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d ;
+    pap:has_keyword pap:keyword_Data_Management,
+        pap:keyword_Data_Querying,
+        pap:keyword_Data_Storage ;
+    pap:p_doi "10.1007/978-3-031-82670-2"^^xsd:string ;
+    pap:p_paperid "eab60903-ede9-40e1-9179-49c04b5bd7dc"^^xsd:string ;
+    pap:p_title "SOFSEM 2025: Theory and Practice of Computer Science - 50th International Conference on Current Trends in Theory and Practice of Computer Science, SOFSEM 2025, Bratislava, Slovak Republic, January 20-23, 2025, Proceedings, Part I"^^xsd:string ;
+    pap:p_url "https://dblp.org/rec/conf/sofsem/2025-1"^^xsd:string ;
+    pap:p_year "2025"^^xsd:int ;
+    pap:published_in_edition pap:edition_Workshop_on_Quantum_Computing_Zurich .
+
+pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3 a pap:paper ;
+    pap:cites pap:paper_5dfb3731-1143-45bc-a2f4-bcb0cdf98ee0,
+        pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1,
+        pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d,
+        pap:paper_eab60903-ede9-40e1-9179-49c04b5bd7dc ;
+    pap:has_keyword pap:keyword_Cloud_Storage,
+        pap:keyword_Compiler,
+        pap:keyword_Data_Management ;
+    pap:p_doi "10.1007/978-3-031-88226-5"^^xsd:string ;
+    pap:p_paperid "4d7eaa28-cb3b-439d-b3df-6ce736be77d3"^^xsd:string ;
+    pap:p_title "Research in Computer Science - 17th African Conference on Research in Computer Science and Applied Mathematics, CARI 2024, Bejaïa, Algeria, November 24-26, 2024, Proceedings"^^xsd:string ;
+    pap:p_url "https://dblp.org/rec/conf/cari/2024"^^xsd:string ;
+    pap:p_year "2025"^^xsd:int ;
+    pap:published_in_edition pap:edition_Workshop_on_Computational_Biology_Rome .
+
+pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1 a pap:paper ;
+    pap:cites pap:paper_4d7eaa28-cb3b-439d-b3df-6ce736be77d3,
+        pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d,
+        pap:paper_eab60903-ede9-40e1-9179-49c04b5bd7dc ;
+    pap:has_keyword pap:keyword_Data_Management,
+        pap:keyword_Data_Querying,
+        pap:keyword_Data_Storage ;
+    pap:p_doi "10.1007/3-540-45878-6"^^xsd:string ;
+    pap:p_paperid "6af818b4-ca39-4c22-9d41-f6f18ee55aa1"^^xsd:string ;
+    pap:p_title "Theoretical Aspects of Computer Science, Advanced Lectures (First Summer School on Theoretical Aspects of Computer Science, Tehran, Iran, July 2000)"^^xsd:string ;
+    pap:p_url "https://dblp.org/rec/conf/ac/2000tacs"^^xsd:string ;
+    pap:p_year "2002"^^xsd:int ;
+    pap:published_in_edition pap:edition_Workshop_on_Artificial_Intelligence_Vienna .
+
+pap:paper_bb298b5b-86d4-4b72-8af0-75b4ff69cf9d a pap:paper ;
+    pap:cites pap:paper_6af818b4-ca39-4c22-9d41-f6f18ee55aa1 ;
+    pap:has_keyword pap:keyword_Cloud_Storage,
+        pap:keyword_Compiler,
+        pap:keyword_Indexing ;
+    pap:p_doi "10.1145/3626253.3631654"^^xsd:string ;
+    pap:p_paperid "bb298b5b-86d4-4b72-8af0-75b4ff69cf9d"^^xsd:string ;
+    pap:p_title "Computing in Data Science or Data in Computer Science? Exploring the Relationship between Data Science and Computer Science in K-12 Education."^^xsd:string ;
+    pap:p_url "https://dblp.org/rec/conf/sigcse/DrozdaWFW24"^^xsd:string ;
+    pap:p_year "2024"^^xsd:int ;
+    pap:published_in_edition pap:edition_European_Conference_on_Human-Computer_Interaction_Stockholm .
+

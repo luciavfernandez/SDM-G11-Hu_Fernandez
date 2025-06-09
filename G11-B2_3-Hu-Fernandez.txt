@@ -1,0 +1,48 @@
+# Queries in SPARQL format, here you can find them in one file
+
+
+# Query N°1: Pattern Matching
+
+PREFIX pap: <http://www.example.edu/papers/>
+
+SELECT ?Paper ?Cited 
+       (GROUP_CONCAT(DISTINCT ?sharedKeyword; SEPARATOR=", ") AS ?Keywords)
+WHERE {
+  ?paper a pap:paper ;
+            pap:p_title ?Paper ;
+            pap:cites ?cited .
+  
+  ?cited a pap:paper ;
+            pap:p_title ?Cited .
+
+  ?paper pap:has_keyword ?keyword .
+  ?keyword pap:k_name ?sharedKeyword .
+  
+  ?cited pap:has_keyword ?citedKeyword .
+  ?citedKeyword pap:k_name ?sharedKeyword .
+
+}
+GROUP BY ?Paper ?Cited
+ORDER BY DESC(COUNT(DISTINCT ?sharedKeyword))
+LIMIT 100
+
+
+# Query N°2: Usefulness of Complex Class
+
+PREFIX pap: <http://www.example.edu/papers/>
+
+SELECT ?reviewerName 
+       (AVG(?score) AS ?averageScore)
+       (COUNT(DISTINCT ?paper) AS ?NumberOfPapers)
+WHERE {
+  ?review a pap:reviewed_by ;
+          pap:reviewed_by_paper ?paper ;
+          pap:reviewed_by_person ?reviewer ;
+          pap:r_score ?score .
+  
+  ?reviewer pap:per_name ?reviewerName .
+}
+GROUP BY ?reviewerName
+HAVING (COUNT(DISTINCT ?paper) > 1) 
+ORDER BY DESC(?averageScore)
+LIMIT 100

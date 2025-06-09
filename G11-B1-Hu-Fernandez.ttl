@@ -1,0 +1,179 @@
+@prefix pap: <http://www.example.edu/papers/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# Classes
+pap:paper a owl:Class .
+pap:publication a owl:Class .
+pap:event a owl:Class .
+pap:person a owl:Class .
+pap:keyword a owl:Class .
+
+pap:journal a owl:Class .
+pap:workshop a owl:Class ;
+    rdfs:subClassOf pap:event .
+pap:conference a owl:Class ;
+    rdfs:subClassOf pap:event .    
+
+pap:volume a owl:Class ;
+    rdfs:subClassOf pap:publication .
+pap:edition a owl:Class ;
+    rdfs:subClassOf pap:publication .    
+
+pap:author a owl:Class ;
+    rdfs:subClassOf pap:person .
+pap:reviewer a owl:Class ;
+    rdfs:subClassOf pap:person .
+pap:written_by a owl:Class .
+pap:reviewed_by a owl:Class .    
+
+# Object Properties
+pap:cites a owl:ObjectProperty ;
+    rdfs:domain pap:paper ;
+    rdfs:range pap:paper .
+
+pap:has_keyword a owl:ObjectProperty ;
+    rdfs:domain pap:paper ;
+    rdfs:range pap:keyword .
+
+pap:published_in a owl:ObjectProperty ;
+    rdfs:domain pap:paper ;
+    rdfs:range pap:publication .
+
+pap:belongs_to a owl:ObjectProperty ;
+    rdfs:domain pap:edition ;
+    rdfs:range pap:event .
+
+pap:is_in a owl:ObjectProperty ;
+    rdfs:domain pap:volume ;
+    rdfs:range pap:journal .
+
+# Data Properties
+
+# Paper attributes
+pap:p_paperid a owl:DatatypeProperty ;
+    rdfs:domain pap:paper ;
+    rdfs:range xsd:string .
+
+pap:p_title a owl:DatatypeProperty ;
+    rdfs:domain pap:paper ;
+    rdfs:range xsd:string .
+
+pap:p_doi a owl:DatatypeProperty ;
+    rdfs:domain pap:paper ;
+    rdfs:range xsd:string .
+
+pap:p_url a owl:DatatypeProperty ;
+    rdfs:domain pap:paper ;
+    rdfs:range xsd:string .
+
+pap:p_year a owl:DatatypeProperty ;
+    rdfs:domain pap:paper ;
+    rdfs:range xsd:int .
+
+# Person attributes
+pap:per_name a owl:DatatypeProperty ;
+    rdfs:domain pap:person ;
+    rdfs:range xsd:string .
+
+# Keyword attributes
+pap:k_name a owl:DatatypeProperty ;
+    rdfs:domain pap:keyword ;
+    rdfs:range xsd:string .
+
+# Position properties
+pap:w_position a owl:DatatypeProperty ;
+    rdfs:domain pap:written_by ;
+    rdfs:range xsd:int .
+
+pap:r_position a owl:DatatypeProperty ;
+    rdfs:domain pap:reviewed_by ;
+    rdfs:range xsd:int .
+
+pap:r_score a owl:DatatypeProperty ;
+    rdfs:domain pap:reviewed_by ;
+    rdfs:range xsd:int .
+
+pap:r_main_feedback a owl:DatatypeProperty ;
+    rdfs:domain pap:reviewed_by ;
+    rdfs:range xsd:string  .     
+
+pap:r_decision a owl:DatatypeProperty ;
+    rdfs:domain pap:reviewed_by ;
+    rdfs:range xsd:string  .           
+
+# Volume attributes
+pap:v_name a owl:DatatypeProperty ;
+    rdfs:domain pap:volume ;
+    rdfs:range xsd:string .
+
+pap:v_year a owl:DatatypeProperty ;
+    rdfs:domain pap:volume ;
+    rdfs:range xsd:int .
+
+# Edition attributes
+pap:ed_venue a owl:DatatypeProperty ;
+    rdfs:domain pap:edition ;
+    rdfs:range xsd:string .
+
+pap:ed_year a owl:DatatypeProperty ;
+    rdfs:domain pap:edition ;
+    rdfs:range xsd:int .
+
+pap:ed_name a owl:DatatypeProperty ;
+    rdfs:domain pap:edition ;
+    rdfs:range xsd:string .
+
+pap:j_name a owl:DatatypeProperty ;
+    rdfs:domain pap:journal ;
+    rdfs:range xsd:string .
+
+pap:e_name a owl:DatatypeProperty ;
+    rdfs:domain pap:event ;
+    rdfs:range xsd:string .
+
+pap:e_type a owl:DatatypeProperty ;
+    rdfs:domain pap:event ;
+    rdfs:range xsd:string .
+
+# Complex classes 
+pap:reviewed_by_paper a owl:ObjectProperty ;
+    rdfs:domain pap:reviewed_by ;
+    rdfs:range pap:paper .  
+
+pap:reviewed_by_person a owl:ObjectProperty ;
+    rdfs:domain pap:reviewed_by ;
+    rdfs:range pap:reviewer .    
+
+pap:written_by_paper a owl:ObjectProperty ;
+    rdfs:domain pap:written_by ;
+    rdfs:range pap:paper .  
+
+pap:written_by_person a owl:ObjectProperty ;
+    rdfs:domain pap:written_by ;
+    rdfs:range pap:author .
+
+# Subproperties for belongs_to
+pap:belongs_to_conference a owl:ObjectProperty ;
+    rdfs:subPropertyOf pap:belongs_to ;
+    rdfs:domain pap:edition ;
+    rdfs:range pap:conference .
+
+pap:belongs_to_workshop a owl:ObjectProperty ;
+    rdfs:subPropertyOf pap:belongs_to ;
+    rdfs:domain pap:edition ;
+    rdfs:range pap:workshop .
+
+
+# Subproperties for published_in
+pap:published_in_volume a owl:ObjectProperty ;
+    rdfs:subPropertyOf pap:published_in ;
+    rdfs:domain pap:paper ;
+    rdfs:range pap:volume.
+
+pap:published_in_edition a owl:ObjectProperty ;
+    rdfs:subPropertyOf pap:published_in;
+    rdfs:domain pap:paper ;
+    rdfs:range pap:edition .    
